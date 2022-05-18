@@ -6,8 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "cypress": "cypress open",
-    "cypress:ct": "cypress open-ct"
+    "cy:open": "cypress open",
+    "cy:ct": "cypress open-ct"
   },
   "dependencies": {
     "react": "^18.0.0",
