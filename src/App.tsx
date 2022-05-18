@@ -1,10 +1,7 @@
-function App() {
-  return (
-    <div className="App">
-      Main App
-      <button>Submit</button>
-    </div>
-  );
-}
+import NavBar from "./components/NavBar/NavBar";
+
+const App = () => {
+  return <NavBar />;
+};
 
 export default App;
